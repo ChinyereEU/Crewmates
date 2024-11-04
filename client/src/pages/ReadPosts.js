@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from '../components/Card';
+import { supabase } from '../client';
 
 const ReadPosts = (props) => {
 
