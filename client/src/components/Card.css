@@ -1,5 +1,10 @@
+/* .CardContainer{
+    display: flex;
+} */
+
+
 .Card {
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px);
     border: 1px solid rgba(153, 153, 153, 0.497);
     border-radius: 20px;
     padding-top: 20px;
@@ -7,8 +12,11 @@
     padding-right: 10px;
     margin-bottom: 25px;
     width: 400px;
-    text-align: center;
+    text-align: center; */
+    margin-left: 220px;
+    padding: 20px;
 }
+
 
 .title {
     color:white;

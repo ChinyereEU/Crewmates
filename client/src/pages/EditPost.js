@@ -42,4 +42,4 @@ const EditPost = ({data}) => {
     )
 }
 
-export default EditPost
+export default EditPost;

@@ -1,5 +1,16 @@
+.sidepane {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 250px;
+  background-color: #f4f4f4;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
 .App {
-  font-family:Avenir, "Century Gothic", sans-serif;
+  /* font-family:Avenir, "Century Gothic", sans-serif;
   font-weight:100; 
   font-style:normal;
   font-size: calc(10px + 2vmin);
@@ -11,13 +22,20 @@
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  margin-left: 250px;
+  padding: 20px;
 }
 
 .header{
   width: 100%;
   color:white;
   text-align: center;
+}
+
+.content {
+  margin-left: 220px; /* Adjust based on the width of the SidePane */
+  padding: 20px;
 }
 
 .headerBtn {

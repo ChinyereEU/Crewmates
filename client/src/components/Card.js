@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './Card.css'
 import more from './more.png'
 import { Link } from 'react-router-dom'
+import SidePane from './SidePane';
 
 
 const Card = (props) =>  {
@@ -13,6 +14,8 @@ const Card = (props) =>  {
   }
 
   return (
+    <div className="CardContainer">
+      {/* <SidePane /> */}
       <div className="Card">
           <Link to={'edit/'+ props.id}><img className="moreButton" alt="edit button" src={more} /></Link>
           <h2 className="title">{props.title}</h2>
@@ -20,6 +23,7 @@ const Card = (props) =>  {
           <p className="description">{props.description}</p>
           <button className="betButton" onClick={updateCount} >👍 Bet Count: {count}</button>
       </div>
+    </div>
   );
 };
 
